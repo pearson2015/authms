@@ -1,3 +1,3 @@
-FROM openjdk:21
-COPY ./target/authms-0.0.1-SNAPSHOT.jar /authms.jar
+FROM openjdk:17
+COPY ./target/authms.jar /authms.jar
 CMD ["java", "-jar", "/authms.jar"]
